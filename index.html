@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend+Deca&family=Ubuntu+Mono:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Nonny's form</title> 
+        
+        </head> 
+    
+<body>
+    
+      
+  <section class="section">
+    <div id="div-1">
+      <h1>Welcome to Nonny's page</h1>
+      <div id="inputs">
+        <form class="forms">
+          <input type="text" id="fname" name="fname" placeholder="Enter firstname"><br><br>
+          <input type="text" id="lname" name="lname" placeholder="Enter lastname"><br><br>
+        </form>
+        <form class="forms">
+          <input type="text" name="address" id="address" placeholder="Address"><br><br>
+          <input type="text" name="phone" id="phone" placeholder="phone Number"><br><br>
+        </form>
+        <select id="gender" name="'Gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select>
+      </div>
+        <label for="about">About yourself</label>  
+        <textarea id="message" name="message" rows="3" cols="30" ></textarea><br><br>
+            <button id="submitButton">
+              Submit
+            </button>   
+    </div>
+  </section> 
+  <div id="mod" class="modal">
+    <div id = "content">
+      <span id="close" class="close">&times;</span>
+      <h2>Verify your details</h2>
+      <p id = "mys"></p>   
+      <p id = "mys1"></p>   
+      <p id = "mys2"></p>   
+      <p id = "mys3"></p>   
+      <p id = "mys4"></p>   
+      <p id = "mys5"></p>  
+      <div id = "buttons">
+        <button id="b1">
+          Edit
+        </button> 
+        <button id = "b2">
+          Save
+        </button>
+      </div>
+    </div> 
+  </div> 
+    </body>
+</html>
+<script src="index.js"></script>
